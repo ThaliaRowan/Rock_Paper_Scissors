@@ -1,0 +1,118 @@
+
+.Container {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 30rem;
+    margin: 20px;
+}
+
+.image1,.image2,.image3 {
+    width: 40px;
+}
+
+#img1,#img2,#img3 {
+    border: 1px solid gray;
+    height: 5rem;
+    justify-content: center;
+    padding-left: 17px;
+    margin: auto;
+    margin-top: 20px;
+}
+#row1{
+    margin-top: 10px;
+}
+
+#row4{
+    margin-top: 15px;
+    padding-left: 2.7%;
+}
+
+#titleborder {
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+}
+ 
+.title{
+    text-align: center;
+}
+
+
+.SecondImg1,.SecondImg2,.SecondImg3 {
+    width: 40px;
+}
+
+#SecImg1,#SecImg2,#SecImg3 {
+    border: 1px solid gray;
+    height: 5rem;
+    justify-content: center;
+    padding-left: 17px;
+    margin: auto;
+}
+
+#row3 {
+    margin-top: 1% !important;
+}
+
+
+.title2 {
+    text-align: center;
+}
+
+
+#titleborder2 {
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+
+#startEl {
+    margin: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#playButton{
+    text-align: center;
+    visibility:hidden;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #row3 {
+        margin-top: 10% !important;
+    }
+    #row4{
+        padding-left: 11% ;
+    }
+    
+
+  }
+
+@media only screen and (max-width: 768px) {
+    #row3 {
+        margin-top: 4% !important;
+    }
+    #row4{
+        padding-left: 5%;
+    }
+    
+
+  }
+  
+@media only screen and (min-width: 1024px) {
+    #row3 {
+        margin-top: 9%;
+    }
+    #row4{
+        padding-left: 4%;
+    }
+
+
+  }
+  
+  
